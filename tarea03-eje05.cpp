@@ -7,7 +7,7 @@ using namespace std;
 int x = 100;
 
 void P1(){
-    this_thread::sleep_for(chrono::milliseconds(100));
+    //this_thread::sleep_for(chrono::milliseconds(100));
     x = x + 10;
 }
 
@@ -51,3 +51,9 @@ int main(){
 // P1;P2;
 // coend
 // end.
+
+
+
+
+
+
